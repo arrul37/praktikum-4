@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Internal Javascript -->
+    <!-- Internal JavaScript -->
     <button onclick="document.getElementById('Demo').innerText = 'Hallo Bang'">
         klik saya!
     </button>
@@ -18,12 +18,20 @@
     </button>
     <script>
         function sapaBang(){
-            document.getElementById('demo2').innerText = "Semangan Dong"
+            document.getElementById('demo2').innerText = "Semangat Dong"
         }
     </script>
     <button onclick="sapaBang()">sapa</button>
     <div>
         <h1 id="demo2"></h1>
     </div>
+    <!-- External JavaScript -->
+    <br>
+    <button id="btn1">klik demo3</button>
+    <div>
+        <h1 id="demo3"></h1>
+    </div>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
